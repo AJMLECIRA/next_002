@@ -1,0 +1,18 @@
+.slide-element {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition:
+    max-height 1.5s ease-in-out,
+    opacity 1.5s ease-in-out;
+  display: none; /* Initially set to none */
+}
+
+.slide-element.open {
+  max-height: 1000px; /* Adjust as needed */
+  opacity: 1;
+  display: block;
+  transition:
+    max-height 1.5s ease-in-out,
+    opacity 1.5s ease-in-out;
+}

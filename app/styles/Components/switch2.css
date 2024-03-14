@@ -1,0 +1,92 @@
+:root {
+  /* --btnWidth: calc(50% - 2px); */
+  --btnWidth: 50%;
+}
+
+.switch-container {
+  position: relative;
+  width: 100%;
+  border-radius: 12vw;
+  border: 6px solid #a6aaaf;
+  background-color: #a6aaaf;
+  color: #fff;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  height: 100%;
+  padding: 0.2vw;
+}
+
+.switch-button {
+  /* width: calc(50% - 3px); */
+  width: var(--btnWidth);
+  border-radius: 12vw;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+  z-index: 10;
+  height: 100%;
+}
+
+.switch-container.checked {
+  background-color: #0cc6de;
+  border: 6px solid #0cc6de;
+}
+.switch-container.checked .switch-label {
+  color: #ffffff;
+}
+.switch-container.checked .switch-button {
+  transform: translateX(100%);
+  /* transform: translateX(240%); */
+  background-color: #ffffff;
+  margin: 1px 2px 1px 0px;
+}
+.switch-container.checked .switch-icon {
+  color: #0cc6de;
+}
+
+.switch-label {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #000;
+  font-weight: 500;
+  font-size: 4vw;
+  border: solid 0px red;
+}
+
+.switch-label.yes {
+  left: 10%;
+}
+
+.switch-label.no {
+  right: 10%;
+  color: #fff;
+}
+
+.switch-icon {
+  color: white;
+}
+.switch-container.disabled {
+  border-color: rgba(0, 0, 0, 0.2);
+}
+.switch-container.disabled .switch-button {
+  background-color: rgb(245, 245, 245);
+}
+/* Font size change for screens 768px and up */
+@media (min-width: 768px) {
+  .switch-label {
+    font-size: 1.2vw;
+  }
+  .switch-container {
+    border-radius: 16vw;
+    border: 2px solid #a6aaaf;
+  }
+  .switch-container.checked {
+    border: 2px solid #0cc6de;
+  }
+}

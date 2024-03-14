@@ -1,0 +1,17 @@
+.inputField {
+  background-color: white;
+  border-radius: 15px;
+  height: 50px;
+  width: 100%;
+}
+.inputLabel {
+  color: white;
+  padding-right: 10px;
+  margin: 0;
+}
+.errorMsg {
+  color: Red;
+}
+.gitInput {
+  bgcolor: white !important;
+}

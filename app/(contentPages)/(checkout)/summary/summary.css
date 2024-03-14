@@ -1,0 +1,139 @@
+/* outer Border box */
+.getAddress_autocomplete_list {
+  border: solid 2px #00000070 !important;
+  border-radius: 1vw;
+  margin-top: 0.5vw;
+  background-color: white;
+}
+/* Input box Border */
+.getAddress_autocomplete_container {
+  border: solid 0px white;
+  outline: none;
+}
+/* select Item */
+.getAddress_autocomplete_suggestion {
+  border: solid 0px red;
+  padding: 0.25vw 0.5vw;
+}
+.getAddress_autocomplete_suggestion_focused {
+  background-color: #0cc6de60;
+  border-radius: 1vw;
+}
+.sectionBox {
+  display: flex;
+  align-items: center;
+  margin: 1vw 0;
+  /* above md size */
+  @media (min-width: 768px) {
+    margin: 1vw 0 1vw;
+  }
+}
+.sectionTitle {
+  flex: 1;
+  font-size: 3vw;
+  font-weight: 700;
+  color: #00000070;
+}
+.sectionIcon {
+  width: 30px;
+  font-size: 18px;
+  padding: 0 1.5vw;
+  color: #00000070;
+  /* above md size */
+  @media (min-width: 768px) {
+    font-size: 28px;
+  }
+}
+.formIcon {
+  padding-right: 1vw;
+  width: 20px;
+}
+.formLabel {
+  color: #00000095;
+  font-weight: 600;
+  margin-bottom: 0;
+  font-size: 1.2vw;
+}
+.delGrid {
+  grid-template-columns: 1fr 1fr;
+  gap: 1vw;
+}
+.delGridItem {
+  border: solid 1px #00000030;
+  border-radius: 1.5vw;
+  padding: 0.5vw 0;
+  color: #00000090;
+  font-size: 0.8vw;
+}
+.active.delGridItem {
+  border: solid 2px #0cc6de;
+}
+.delGridItem:hover {
+  background-color: #0cc6de10;
+  cursor: pointer;
+}
+.delIcon {
+  font-size: 30px;
+  width: 30px;
+}
+.delTitle {
+  font-weight: 600;
+  line-height: 0.6vw;
+}
+.delDesc {
+  font-size: 0.7vw;
+  line-height: 0.8vw;
+}
+.delPrice {
+  font-size: 0.9vw;
+  font-weight: 600;
+}
+.methodGrid {
+  grid-template-columns: 1fr 2fr;
+}
+
+.methodIconItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.active .methodIconItem {
+  color: #0cc6de;
+  fill: #0cc6de;
+}
+.methodGridItem {
+  line-height: 1.1vw;
+  color: #00000090;
+}
+
+.paymethod,
+.method {
+  background-color: white;
+}
+.paymethod.active,
+.method.active {
+  background-color: #0cc6de30;
+}
+/* sm */
+@media (min-width: 480px) {
+}
+/* md */
+@media (min-width: 768px) {
+  .sectionTitle {
+    font-size: 1.4vw;
+  }
+}
+/* lg */
+@media (min-width: 992px) {
+}
+/* xl only */
+@media (min-width: 1280px) {
+}
+
+/* Paymentsense */
+iframe {
+  width: 100%;
+}
+.connect-container {
+  margin-top: 80px;
+}

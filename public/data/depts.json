@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "txtpt1": "abstract &",
+    "txtpt2": "asymmetrical",
+    "img": "asymmetrical.jpg",
+    "sming": "sm_asymmetrical.jpg"
+  },
+  {
+    "id": 2,
+    "txtpt1": "etched &",
+    "txtpt2": "illuminated",
+    "img": "etched.jpg",
+    "sming": "sm_etched.jpg"
+  },
+  {
+    "id": 3,
+    "txtpt1": "traditonal",
+    "txtpt2": "framing",
+    "img": "frame.jpg",
+    "sming": "sm_frame.jpg"
+  },
+  {
+    "id": 4,
+    "txtpt1": "natural",
+    "txtpt2": "timbers",
+    "img": "timber.jpg",
+    "sming": "sm_timber.jpg"
+  },
+  {
+    "id": 5,
+    "txtpt1": "organic",
+    "txtpt2": "synthetic",
+    "img": "resin.jpg",
+    "sming": "sm_resin.jpg"
+  },
+  {
+    "id": 6,
+    "txtpt1": "futuristic",
+    "txtpt2": "smart glass",
+    "img": "smart.jpg",
+    "sming": "sm_smart.jpg"
+  },
+  {
+    "id": 7,
+    "txtpt1": "tinted &",
+    "txtpt2": "textured",
+    "img": "tinted.jpg",
+    "sming": "sm_tinted.jpg"
+  },
+  {
+    "id": 8,
+    "txtpt1": "geometric",
+    "txtpt2": "tiled walls",
+    "img": "tiled.jpg",
+    "sming": "sm_tiled.jpg"
+  }
+]

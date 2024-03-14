@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "client": "Barclays",
+    "weblink": "http://barclays.co.uk/",
+    "logo": "Barclays.svg"
+  },
+  {
+    "id": 2,
+    "client": "Barratt Homes",
+    "weblink": "http://Barratthomes.co.uk/",
+    "logo": "barratt_homes.svg"
+  },
+  {
+    "id": 3,
+    "client": "BBC",
+    "weblink": "https://bbc.co.uk/",
+    "logo": "bbc.svg"
+  },
+  {
+    "id": 4,
+    "client": "Burger King",
+    "weblink": "https://burgerking.co.uk/",
+    "logo": "burger_king.svg"
+  },
+  {
+    "id": 5,
+    "client": "Five Guys",
+    "weblink": "https://fiveguys.co.uk/",
+    "logo": "five_guys.svg"
+  },
+  {
+    "id": 6,
+    "client": "GlaxoSmithKline",
+    "weblink": "https://www.gsk.com/",
+    "logo": "gsk.svg"
+  },
+  {
+    "id": 7,
+    "client": "Google",
+    "weblink": "https://google.co.uk/",
+    "logo": "google.svg"
+  },
+  {
+    "id": 8,
+    "client": "Hilton Hotels",
+    "weblink": "https://hilton.com/en/",
+    "logo": "hilton_hotels.svg"
+  },
+  {
+    "id": 9,
+    "client": "HSBC",
+    "weblink": "https://hsbc.co.uk/",
+    "logo": "hsbc.svg"
+  },
+  {
+    "id": 10,
+    "client": "JD Sports",
+    "weblink": "https://www.jdsports.co.uk/",
+    "logo": "jd_sports.svg"
+  },
+  {
+    "id": 11,
+    "client": "Manchester United",
+    "weblink": "https://www.manutd.com/",
+    "logo": "manutd.svg"
+  },
+  {
+    "id": 12,
+    "client": "Marriott",
+    "weblink": "https://www.marriott.com/",
+    "logo": "Marriott.svg"
+  },
+  {
+    "id": 13,
+    "client": "Mercure Hotels",
+    "weblink": "https://mercure.accor.com/",
+    "logo": "mercure_hotels.svg"
+  },
+  {
+    "id": 14,
+    "client": "Natural History Museum",
+    "weblink": "https://nhm.ac.uk/",
+    "logo": "nhm.svg"
+  },
+  {
+    "id": 15,
+    "client": "Taylor Woodrow",
+    "weblink": "https://taylorwoodrow.com/",
+    "logo": "taylor_woodrow.svg"
+  },
+  {
+    "id": 16,
+    "client": "Toyota",
+    "weblink": "https://toyota.co.uk/",
+    "logo": "Toyota.svg"
+  },
+  {
+    "id": 17,
+    "client": "Travelodge",
+    "weblink": "https://travelodge.co.uk/",
+    "logo": "Travelodge.svg"
+  }
+]

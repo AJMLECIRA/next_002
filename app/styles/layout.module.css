@@ -1,0 +1,23 @@
+.footer {
+  position: relative;
+  top: 0px;
+  color: #333333;
+}
+.title {
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 100%;
+  /* line-height: 2.3vw;
+  font-size: 1vw; */
+}
+.item {
+  text-transform: capitalize;
+  display: inline-block;
+  width: 100%;
+  align-items: center;
+}
+@media print {
+  .noPrint {
+    display: none !important; /* Ensures the element is not displayed in print */
+  }
+}

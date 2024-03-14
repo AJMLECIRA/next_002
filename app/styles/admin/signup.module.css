@@ -1,0 +1,22 @@
+.signupform {
+  max-width: 360px;
+  margin: 60px auto;
+  padding: 20px;
+  background-color: rgba(12, 198, 222, 0.1);
+  border: solid 1px rgba(12, 198, 222, 0.5);
+}
+.signupform label {
+  display: block;
+  margin: 30px auto;
+}
+.signupform span {
+  display: block;
+  margin-bottom: 6px;
+}
+.signupform input {
+  padding: 8px 6px;
+  font-size: 1em;
+  color: #777;
+  width: 100%;
+  border: solid 1px rgba(12, 198, 222, 0.5);
+}

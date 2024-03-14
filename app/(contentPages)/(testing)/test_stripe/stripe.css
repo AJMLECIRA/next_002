@@ -1,0 +1,6 @@
+.stripe > .Label {
+  color: red;
+}
+.stripe.Label {
+  border: solid 3px red;
+}

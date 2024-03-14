@@ -1,0 +1,8 @@
+.App {
+  font-size: large;
+  color: 0cc6de;
+  height: 100%;
+}
+.App.dark {
+  background: #333;
+}
